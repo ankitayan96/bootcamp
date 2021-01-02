@@ -3,6 +3,7 @@ from django.db import models
 from django.db.models import Count
 from django.utils.translation import ugettext_lazy as _
 
+
 from slugify import slugify
 
 from django_comments.signals import comment_was_posted
